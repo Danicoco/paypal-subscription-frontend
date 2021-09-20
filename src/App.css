@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.outline {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #011b1b;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  width: 500px;
+  padding: 2.50rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mt-3 {
+  margin-top: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.xjy {
+  color: #fff;
+  font-size: .99rem;
 }
 
-.App-link {
-  color: #61dafb;
+.pricing-body {
+  margin: 0 20vw 0 20vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-inclusive {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.plan-header {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.plan-heading {
+  font-size: 1.32rem;
+  font-weight: 600;
+}
+
+.plan-price {
+  font-weight: 700;
+
+}
+
+.plan-footer {
+  font-size: .35;
+  margin-top: 0 auto;
 }
